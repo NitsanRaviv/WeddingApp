@@ -1,0 +1,496 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---------- Google Fonts ----------*/
+
+
+
+body{
+	font-family: 'Heebo', sans-serif;
+	background-color: #251B28;
+}
+
+a,
+input,
+button,
+textarea { outline: none !important; }
+
+a {
+	transition: all ease-in-out 300ms;
+	-webkit-transition: all ease-in-out 300ms;
+	-ms-transition: all ease-in-out 300ms;
+	-o-transition: all ease-in-out 300ms;
+	-moz-transition: all ease-in-out 300ms;
+}
+.pad-left {
+	padding-left:0;
+}
+
+.pad-right {
+	padding-right:0;
+}
+
+.pad-top {
+	padding-top:0;
+}
+
+.pad-bottom {
+	padding-bottom:0;
+}
+
+.padding {
+	padding:0;
+}
+
+h1 {
+	font-size: 55px;
+	line-height: 55px;
+	margin: 0;
+}
+h2 {
+	font-size: 50px;
+	line-height: 50px;
+	margin: 0;
+}
+h3 {
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0;
+}
+
+h4 {
+	font-size: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+
+h5 {
+	font-size: 26px;
+	line-height: 26px;
+	margin: 0;
+}
+
+h6 {
+	font-size: 22px;
+	line-height: 22px;
+	margin: 0;
+}
+
+p {
+	font-size: 16px;
+	line-height: 18px;
+	margin: 0;
+}
+
+/*==================================================================*/
+/*========== Header Start ==========*/
+/*==================================================================*/
+
+
+
+/*==================================================================*/
+/*========== Header End ==========*/
+/*==================================================================*/
+
+
+
+/*==================================================================*/
+/*========== New Class Add Start ==========*/
+/*==================================================================*/
+
+.section-text span {
+	font-size: 16px;
+	line-height: 23px;
+	text-align: center;
+	color: #FEFEFE;
+	font-weight: 300;
+	padding: 0 40px;
+    display: block;
+}
+
+.all-text .banner {
+	background-image: url("../images/top-banner.svg");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 126px;
+	max-width: 460px;
+	margin: 0 auto;
+}
+
+.all-text {
+	margin-bottom: 70px;
+}
+
+.heading {
+	text-align: center;
+	margin-bottom: 25px;
+	padding-top: 24px;
+}
+
+.all-text .heading-border {
+	position: relative;
+	padding-bottom: 20px;
+	padding-top: 0;
+}
+
+.all-text .heading-border:before {
+	content: ""; 
+	width: 255px;
+	height: 0.6px;
+	background-color: rgb(255 255 255 / 50%);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.heading h1, 
+.heading h2, 
+.heading h3, 
+.heading h4, 
+.heading h5, 
+.heading h6 {
+	font-size: 18px;
+	line-height: 26px;
+	color: #FEFEFE;
+	font-weight: 900;
+}
+
+.text p {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #FEFEFE;
+	font-weight: 400;
+	margin-bottom: 28px;
+}
+
+.text p b {
+	color: #F2F1E1;
+}
+
+.full-btn.page-1 {
+	margin-top: 80px;
+}
+
+.full-btn {
+	margin-top: 45px;
+	text-align: center;
+}
+
+.full-btn .btn {
+	font-size: 24px;
+	line-height: 35px;
+	font-weight: 400;
+	color: #261D17;
+	padding: 7px 30px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+.full-btn.page-1 .btn-abbot {
+	background: #E9E8D4;
+	box-shadow: 0px 0px 15px rgba(233, 232, 212, 0.4), 0px 0px 4px rgba(233, 232, 212, 0.3);
+}
+
+.full-btn .btn-abbot:disabled {
+	opacity: 1;
+	background-color: #B9B5BA;
+	box-shadow: 0px 0px 15px rgba(233, 232, 212, 0.4), 0px 0px 4px rgba(233, 232, 212, 0.3);
+}
+
+.full-btn .btn-abbot.disable {
+	opacity: 1;
+	background-color: #B9B5BA;
+	box-shadow: 0px 0px 15px rgba(233, 232, 212, 0.4), 0px 0px 4px rgba(233, 232, 212, 0.3);
+	cursor: no-drop;
+}
+
+.full-btn .btn-abbot.active {
+	background-color: #E9E8D4;
+    box-shadow: inset 0px 0px 8px rgb(0 0 0 / 10%), inset 0px 2px 4px rgb(0 0 0 / 8%);
+}
+
+/* section page */
+
+.section-page, .tanks-page {
+	display: none;
+}
+
+/* .section-page .all-box {
+	padding-top: 20px;
+} */
+
+.all-box .radio {
+	display: block;
+	position: relative;
+	margin-bottom: 8px;
+}
+
+.all-box .radio .text {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	cursor: pointer;
+	padding: 13px 10px 13px 20px;
+	background: #3B2D41;
+	box-shadow: 0px 0px 8px rgba(105, 105, 105, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	/* position: relative; */
+}
+
+.all-box .radio .text-image span {
+	font-size: 14px;
+	line-height: 20px;
+	color: #FEFEFE;
+	font-weight: 300;
+	display: block;
+}
+
+.all-box .radio p {
+	font-size: 12px;
+	line-height: 17px;
+	color: #FEFEFE;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+
+.radio .text .image {
+	margin-left: 15px;
+}
+
+.radio .text .image img {
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.all-box .radio input {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    opacity: 0;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+}
+
+.all-box .radio input:checked ~ .text {
+    background: #140F16;
+	box-shadow: 0px -2px 2px rgba(242, 240, 223, 0.03), inset 0px 0px 8px rgba(105, 105, 105, 0.1), inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.all-box .radio .checkmark {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	height: 16px;
+	width: 16px;
+	border: 1px solid #FEFEFE;
+	background-color: transparent;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+}
+
+.all-box .radio .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.all-box .radio input:checked ~ .checkmark:after {
+	display: block;
+}
+
+.all-box .checkmark:after {
+	top: 1px;
+	left: 1px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #FEFEFE;
+}
+
+/* .all-box .full-btn .weak {
+	background-color: #B9B5BA;
+	box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.1), inset 0px 2px 4px rgba(0, 0, 0, 0.08);
+	transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+} */
+
+/* .all-box .full-btn .weak:hover {
+	background: #E9E8D4;
+	box-shadow: 0px 0px 15px rgba(233, 232, 212, 0.4), 0px 0px 4px rgba(233, 232, 212, 0.3);
+} */
+
+/* .section-page .full-btn {
+	margin-top: 60px;
+} */
+
+.section-page .all-box .radio p {
+	direction: ltr;
+}
+
+/* tanks page */
+
+.all-text .thanks {
+	position: relative;
+}
+
+.all-text .thanks .left-border-1, .all-text .thanks .left-border-2, .all-text .thanks .left-border-3 {
+	position: absolute;
+	left: 0;
+	height: 295px;
+	border-left: 0.5px solid rgba(242, 240, 219, 0.2);
+	border-right: 0.5px solid rgba(242, 240, 219, 0.2);
+}
+
+.all-text .thanks .left-border-1:before, .all-text .thanks .left-border-2:before, .all-text .thanks .left-border-3:before {
+	content: "";
+	position: absolute;
+	left: -7px;
+	bottom: 0;
+	width: 13px;
+	height: 13px;
+	background: radial-gradient(30.56% 30.56% at 50% 50%, #F1EFD9 0%, #F2F0DF 100%);
+	box-shadow: 1px 1px 30px rgba(255, 255, 255, 0.7), 0px 0px 15px rgba(242, 240, 223, 0.5), 0px 0px 6px rgba(242, 240, 223, 0.6), 0px 0px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.all-text .thanks .left-border-2:before {
+	width: 18px;
+	height: 18px;
+	left: -9px;
+}
+
+.all-text .thanks .left-border-2 {
+	left: 15px;
+	height: 374px;
+}
+
+.all-text .thanks .left-border-3 {
+	left: 30px;
+	height: 331px;
+}
+
+.all-text .thanks .left-border-1:after, .all-text .thanks .left-border-2:after, .all-text .thanks .left-border-3:after {
+	content: "";
+	position: absolute;
+	right: -7px;
+	bottom: 0;
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background: radial-gradient(30.56% 30.56% at 50% 50%, #F1EFD9 0%, #F2F0DF 100%);
+	box-shadow: 1px 1px 30px rgba(255, 255, 255, 0.7), 0px 0px 15px rgba(242, 240, 223, 0.5), 0px 0px 6px rgba(242, 240, 223, 0.6), 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+.all-text .thanks .left-border-2:after {
+	width: 18px;
+	height: 18px;
+	right: -9px;
+}
+
+
+.all-text .thanks .left-border-1{
+	right: 15px;
+}
+
+.all-text .thanks .left-border-2 {
+	right: 0px;
+}
+
+.all-text .thanks .left-border-3 {
+	right: 30px;
+}
+
+.all-text .thanks .heading h1, 
+.all-text .thanks .heading h2, 
+.all-text .thanks .heading h3, 
+.all-text .thanks .heading h4, 
+.all-text .thanks .heading h5, 
+.all-text .thanks .heading h6 {
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.all-text .thanks .heading {
+	position: relative;
+	padding: 24px 35px;
+}
+
+.all-text .thanks .heading:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 116px;
+	height: 0.6px;
+	background-color: rgb(255 255 255 / 50%);
+}
+
+.all-text .thanks .section-text span {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.tanks-page .all-box .image {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.tanks-page .all-box .thanks-img {
+	width: 200px;
+}
+
+/* tanks page end */
+
+
+
+
+
+/* section page end*/
+
+/*==================================================================*/
+/*========== New Class Add End ==========*/
+/*==================================================================*/
+
+
+
+/*==================================================================*/
+/*========== Footer Start ==========*/
+/*==================================================================*/
+
+/*==================================================================*/
+/*========== Footer End ==========*/
+/*==================================================================*/
